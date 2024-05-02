@@ -1,0 +1,53 @@
+﻿<Window x:Class="WpfApp3.GetContract"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="GetContract" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="CityBox" HorizontalAlignment="Left" Margin="138,90,0,0" TextWrapping="Wrap" Text="Новоибирск" VerticalAlignment="Top" Width="120"/>
+        <Label Content="City" HorizontalAlignment="Left" Margin="102,86,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="CompanyTypeBox" HorizontalAlignment="Left" Margin="138,121,0,0" TextWrapping="Wrap" Text="ООО" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Company type" HorizontalAlignment="Left" Margin="51,117,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="CompanyNameBox" HorizontalAlignment="Left" Margin="138,152,0,0" TextWrapping="Wrap" Text="Русские блины" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Company type" HorizontalAlignment="Left" Margin="51,148,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="WorkerNameBox" HorizontalAlignment="Left" Margin="138,183,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Worker name" HorizontalAlignment="Left" Margin="51,179,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="WorkPlaceAddress" HorizontalAlignment="Left" Margin="137,214,0,0" TextWrapping="Wrap" Text="Кольцово 18" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Work place address" HorizontalAlignment="Left" Margin="19,210,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="StartDateBox" HorizontalAlignment="Left" Margin="137,245,0,0" TextWrapping="Wrap" Text="19 мая 2025" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Start date" HorizontalAlignment="Left" Margin="64,241,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="InternshipBox" HorizontalAlignment="Left" Margin="134,276,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120"/>
+        <Label Content="internship" HorizontalAlignment="Left" Margin="61,272,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="SalaryBox" HorizontalAlignment="Left" Margin="135,307,0,0" TextWrapping="Wrap" Text="45" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Salary" HorizontalAlignment="Left" Margin="76,303,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="PayoutDocument" HorizontalAlignment="Left" Margin="510,90,0,0" TextWrapping="Wrap" Text="14.88" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Other payout document" HorizontalAlignment="Left" Margin="367,86,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="FromBox" HorizontalAlignment="Left" Margin="510,121,0,0" TextWrapping="Wrap" Text="УК РФ" VerticalAlignment="Top" Width="120"/>
+        <Label Content="From" HorizontalAlignment="Left" Margin="467,117,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="InnBox" HorizontalAlignment="Left" Margin="510,152,0,0" TextWrapping="Wrap" Text="123413413413" VerticalAlignment="Top" Width="120"/>
+        <Label Content="INN" HorizontalAlignment="Left" Margin="467,148,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.931,0.387"/>
+        <TextBox x:Name="CompanyAddressBox" HorizontalAlignment="Left" Margin="510,183,0,0" TextWrapping="Wrap" Text="Кольцово 19" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Company address" HorizontalAlignment="Left" Margin="400,179,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.931,0.387"/>
+        <TextBox x:Name="PassportBox" HorizontalAlignment="Left" Margin="510,218,0,0" TextWrapping="Wrap" Text="404959239459" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Passport" HorizontalAlignment="Left" Margin="443,217,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.931,0.387"/>
+        <Button x:Name="SaveButton" Content="Save" HorizontalAlignment="Center" Margin="0,380,0,0" VerticalAlignment="Top" Height="22" Width="60" Click="SaveButton_Click"/>
+        <TextBox x:Name="documentNumBox" HorizontalAlignment="Left" Margin="510,246,0,0" TextWrapping="Wrap" Text="34" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Document number" HorizontalAlignment="Left" Margin="394,241,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.931,0.387"/>
+        <TextBox x:Name="jobTitle" HorizontalAlignment="Left" Margin="511,273,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Job title" HorizontalAlignment="Left" Margin="395,268,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.931,0.387"/>
+
+
+    </Grid>
+</Window>
